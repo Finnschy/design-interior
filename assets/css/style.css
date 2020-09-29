@@ -3,3 +3,38 @@
 /* font-family: 'Lora', serif;
 font-family: 'Work Sans', sans-serif; */
 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+}
+
+.header-img {
+    height: 85vh;
+    background: url(../img/design-interior-1.jpg) right / contain no-repeat;
+    margin-top: -32%;
+}
+
+.header {
+    border: 1px solid green;
+    width: 46.7%; 
+    text-align: center;
+}
+
+header h1 {
+    font-size: 4rem;
+    font-weight: 600;
+    margin-top: 40%;
+    margin-bottom: -2%;
+    letter-spacing: .7rem;
+}
+
+header h3 {
+    font-size: 1rem;
+    letter-spacing: .1rem;
+}
