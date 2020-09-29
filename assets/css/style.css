@@ -49,21 +49,28 @@ header h3 {
 }
 
 nav {
-    height: 10vh;
+    height: 13vh;
     background: #2e2e2e;
     position: sticky;
     top: 0;
+}
+
+#logo {
+    display: inline;
+    padding-top: .5%;
+    padding-left: 3%;
 }
 
 nav ul {
     list-style: none;   
     text-align: right;
     margin: 0;
+    margin-top: -5.3%;
 }
 
 nav li {
     display: inline-block;
-    padding: 3% 6%;
+    padding: 2% 6%;
 }
 
 nav li a {
@@ -95,22 +102,37 @@ nav li a {
     text-align: center;
 }
 
-.featured {
-    width: 50%;
-    margin: 0 auto;
-    font-weight: 300;
-    letter-spacing: .15rem;
-    line-height: 1.5rem;
+.featured article {
+    text-align: center;
+    width: 100%;
 }
-
-.figure-wrapper {
-    width: 90%;
-    margin: 0 auto;
-
-}
-
-figure img{
+figure {
+    display: inline-block;
     width: 30%;
+    margin: 0;
+    margin-top: 5%;
+}
+figure img {
+    width:100%;
+}
+figcaption {
+    color: grey;
+    text-align: center;
+    font-size: .9rem;
+    width:79%;
+    margin:0 auto;
+}
+
+figure:nth-of-type(2) {
+    padding:0 3rem;
+}
+iframe {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.touch {
+    margin: 0;
 }
 
 .touch article {
@@ -130,9 +152,8 @@ label {
     margin-bottom: 5%;
 }
 
-footer {
-    height: 10vh;
-    background: #1d2c2f;
+[type=submit] {
+    margin-top: 6%;
 }
 
 textarea {
@@ -140,7 +161,34 @@ textarea {
 }
 
 .kontakt-formular {
+
     margin-left: 60%;
     margin-right: 10%;
     margin-top: -15%;
+
+}
+
+footer {
+    height: 10vh;
+    background: #1d2c2f;
+    font-family: 'Lora', serif;
+}
+
+footer p {
+    margin-top: 1%;
+    padding-left: 2%;
+    display: inline-block;
+    color: #fff;
+}
+
+footer ul {
+    list-style: none;
+    text-align: right;
+    color: #fff;
+    
+}
+
+footer ul li {
+    display: inline-block;
+    padding: 0 5%;
 }
