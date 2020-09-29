@@ -19,18 +19,20 @@ h1, h2, h3 {
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-weight: 600;
 }
 
 header div {
     text-align: right;
     margin-top: -27%;
+    height: 87vh;
 }
 
 .header {
     width: 45%; 
     text-align: center;
+    
 }
 
 header h1 {
@@ -46,31 +48,31 @@ header h3 {
     letter-spacing: .1rem;
 }
 
-/* sticky */
 nav {
     height: 10vh;
     background: #2e2e2e;
+    position: sticky;
+    top: 0;
 }
 
 nav ul {
     list-style: none;   
     text-align: right;
-    
+    margin: 0;
 }
 
-nav ul li {
+nav li {
     display: inline-block;
-    padding-top: 2%;
-    
+    padding: 3% 6%;
 }
 
-nav ul li a {
+nav li a {
     color: #fff;
     text-decoration: none;
 }
 
 .our-story , .touch {
-    height: 100vh;
+    height: 90vh;
     background: #2e2e2e;
     color: #fff;
     font-weight: 300;
@@ -120,10 +122,12 @@ figure img{
 
 label {
     display: block;
+    font-family: 'Lora', serif;
 }
 
 [type=text] , [type=email] {
-    padding: .5% 30%;
+    padding: 1% 55% 1% 0;
+    margin-bottom: 5%;
 }
 
 footer {
@@ -131,8 +135,11 @@ footer {
     background: #1d2c2f;
 }
 
+textarea {
+    font-family: 'Work Sans', sans-serif;
+}
+
 .kontakt-formular {
-    border: 5px solid yellow;
     margin-left: 60%;
     margin-right: 10%;
     margin-top: -15%;
