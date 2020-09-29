@@ -2,10 +2,13 @@
 
 /* font-family: 'Lora', serif;
 font-family: 'Work Sans', sans-serif; */
-
-body {
+* {
     margin: 0;
     padding: 0;
+}
+
+body {
+
     font-family: 'Work Sans', sans-serif;
 }
 
@@ -14,15 +17,13 @@ h1, h2, h3 {
     font-weight: 400;
 }
 
-.header-img {
-    height: 85vh;
-    background: url(../img/design-interior-1.jpg) right / contain no-repeat;
-    margin-top: -32%;
+header div {
+    text-align: right;
+    margin-top: -27%;
 }
 
 .header {
-    border: 1px solid green;
-    width: 46.7%; 
+    width: 45%; 
     text-align: center;
 }
 
@@ -37,4 +38,46 @@ header h1 {
 header h3 {
     font-size: 1rem;
     letter-spacing: .1rem;
+}
+
+/* sticky */
+nav {
+    height: 10vh;
+    background: #2e2e2e;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+nav ul {
+    list-style: none;   
+}
+
+nav ul li {
+    display: inline-block;
+    padding-top: 2%;
+    
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+   
+}
+
+
+.our-story , .touch {
+    background: #2e2e2e;
+}
+
+
+
+
+
+
+
+
+
+footer {
+    height: 10vh;
+    background: #1d2c2f;
 }
