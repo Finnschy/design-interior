@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Work+Sans:wght@200;400&display=swap');;
 
 /* font-family: 'Lora', serif;
 font-family: 'Work Sans', sans-serif; */
@@ -8,13 +8,19 @@ font-family: 'Work Sans', sans-serif; */
 }
 
 body {
-
+    margin: 0;
+    padding: 0;
     font-family: 'Work Sans', sans-serif;
 }
 
 h1, h2, h3 {
     font-family: 'Lora', serif;
     font-weight: 400;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 600;
 }
 
 header div {
@@ -44,12 +50,12 @@ header h3 {
 nav {
     height: 10vh;
     background: #2e2e2e;
-    padding-top: 0;
-    margin-top: 0;
 }
 
 nav ul {
     list-style: none;   
+    text-align: right;
+    
 }
 
 nav ul li {
@@ -61,23 +67,73 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
-   
 }
-
 
 .our-story , .touch {
+    height: 100vh;
     background: #2e2e2e;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: .15rem;
+    line-height: 1.5rem;
+}
+
+.our-story img {
+    margin-top: 10%;
+    width: 52%;
+}
+
+.our-story article {
+    width: 40%;
+    margin-left: 55%;
+    margin-top: -30%;
+}
+
+.our-story h2 , .featured h2{
+    text-align: center;
+}
+
+.featured {
+    width: 50%;
+    margin: 0 auto;
+    font-weight: 300;
+    letter-spacing: .15rem;
+    line-height: 1.5rem;
+}
+
+.figure-wrapper {
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+figure img{
+    width: 30%;
+}
+
+.touch article {
+    width: 35%; 
+    padding-top: 15%;
+    padding-left: 10%;
 }
 
 
+label {
+    display: block;
+}
 
-
-
-
-
-
+[type=text] , [type=email] {
+    padding: .5% 30%;
+}
 
 footer {
     height: 10vh;
     background: #1d2c2f;
+}
+
+.kontakt-formular {
+    border: 5px solid yellow;
+    margin-left: 60%;
+    margin-right: 10%;
+    margin-top: -15%;
 }
